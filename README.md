@@ -1,42 +1,32 @@
-# VueProject
+# 📸 Personal Photography Portfolio (Vue + GitHub Pages)
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is a **personal photography portfolio website** built with **Vue.js** and deployed using **GitHub Pages**. The primary purpose of this project is to **solidify my understanding of front-end development concepts** while also creating a visually appealing space to showcase my photography.
 
-## Recommended IDE Setup
+This is a learning-focused project that combines creativity with modern web development tools.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Recommended Browser Setup
+## 🚀 Purpose & Goals
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- Strengthen my understanding of **front-end development**
+- Practice building a real project using **Vue.js**
+- Learn how to deploy a static site using **GitHub Pages**
+- Create a clean, responsive **personal photography portfolio**
+- Experiment with UI/UX design, layouts, and components
 
-## Type Support for `.vue` Imports in TS
+---
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## 🛠️ Tech Stack
 
-## Customize configuration
+- **Vue.js** – Component-based front-end framework  
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+- **GitHub Pages** – Static site deployment
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+---
 
-## Project Setup
+## 📁 Project Structure 
+  *Soon to be added*
 
-```sh
-npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
