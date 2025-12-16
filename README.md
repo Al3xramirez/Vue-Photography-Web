@@ -26,5 +26,7 @@ This is a learning-focused project that combines creativity with modern web deve
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure 
+  *Soon to be added*
+
 
