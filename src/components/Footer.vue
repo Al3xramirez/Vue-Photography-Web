@@ -1,8 +1,11 @@
-<script setup>
-</script>
-
 <template>
+  <footer class="footer">
+    <p>© 2025 Alejandro Ramirez — Photography Portfolio</p>
+  </footer>
 </template>
 
-<style scoped>
-</style>
+<script>
+export default {
+  name: "Footer"
+};
+</script>
