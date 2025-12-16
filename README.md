@@ -1,4 +1,4 @@
-# 📸 Personal Photography Portfolio (Vue + GitHub Pages)
+# 📸 Personal Photography Portfolio
 
 This project is a **personal photography portfolio website** built with **Vue.js** and deployed using **GitHub Pages**. The primary purpose of this project is to **solidify my understanding of front-end development concepts** while also creating a visually appealing space to showcase my photography.
 
