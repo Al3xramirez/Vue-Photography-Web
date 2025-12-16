@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <h1>Alejandro Ramirez</h1>
+    <h1>Al3Visualz</h1>
     <nav>
       <a href="#">Home</a>
       <a href="#">Gallery</a>
