@@ -30,7 +30,7 @@ export default {
         { src: photo2, alt: "MainPage sample 2", vertical: false },//
         { src: photo5, alt: "MainPage sample 5", vertical: true },  // vertical
         { src: photo6, alt: "MainPage sample 6", vertical: true },  // vertical
-        //{ src: photo3, alt: "MainPage sample 3", vertical: true },  // vertical
+        { src: photo3, alt: "MainPage sample 3", vertical: true },  // vertical
 
       ]
     };
