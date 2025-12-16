@@ -1,6 +1,5 @@
 <script setup>
   import {ref} from 'vue'
-  const name = ref('Alex')
   const emoji = ref('✌🏻')
 </script>
 
@@ -10,8 +9,8 @@
   </header>
 
   <main>
-    <h1>Hello, {{name}}!</h1>
-    <p>This is the beginning of my photogrhapy website demo!</p>
+    <h1>Hello!</h1>
+    <p>This is the beginning of my photography website demo!</p>
   </main>
 
   <footer>
@@ -27,7 +26,7 @@
       display:block;
   }
   main a{
-      color: #42B883;
+      color: #e1e6de;
   }
   footer {
       position:fixed;
