@@ -7,9 +7,9 @@ const title = ref("Al3Visualz");
   <header class="header">
     <h1>{{ title }} <img class="logo" src="../assets/Logo.png" alt="Logo"></h1>
     <nav>
-      <a href="Home">Home</a>
-      <a href="Gallery">Gallery</a>
-      <a href="Contact">Contact</a>
+      <router-link to="/">Home</router-link>
+      <router-link to="/gallery">Gallery</router-link>
+      <router-link to="/contact">Contact</router-link>
     </nav>
   </header>
 </template>
@@ -21,7 +21,7 @@ const title = ref("Al3Visualz");
 .header {
   padding: 2rem 3rem;
   background-color: #ffffff;
-  border-bottom: 5px solid #e5e5e5;
+  border-bottom: 4px solid #e5e5e5;
   display: flex;
   justify-content: space-between;
   align-items: center;
