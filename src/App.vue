@@ -17,5 +17,4 @@ import Footer from "@/components/Footer.vue";
 
 
 <style>
-/* App-level styles can go here if needed */
 </style>

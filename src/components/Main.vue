@@ -39,7 +39,7 @@ export default {
   </main>
 </template>
 
-<style>
+<style scoped>
 
     /* --------------------
    Main Content

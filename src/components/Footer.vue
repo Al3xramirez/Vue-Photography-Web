@@ -1,7 +1,5 @@
-<script>
-export default {
-  name: "Footer"
-};
+<script setup>
+
 </script>
 
 <template>
@@ -10,7 +8,7 @@ export default {
   </footer>
 </template>
 
-<style>
+<style scoped>
     /* --------------------
    Footer
 --------------------- */

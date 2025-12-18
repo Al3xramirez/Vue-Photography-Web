@@ -1,21 +1,20 @@
-<script>
-export default {
-  name: "Header"
-};
+<script setup>
+import { ref } from "vue";
+const title = ref("Al3Visualz");
 </script>
 
 <template>
   <header class="header">
-    <h1>Al3Visualz</h1>
+    <h1>{{ title }} <img class="logo" src="../assets/Logo.png" alt="Logo"></h1>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">Gallery</a>
-      <a href="#">Contact</a>
+      <a href="Home">Home</a>
+      <a href="Gallery">Gallery</a>
+      <a href="Contact">Contact</a>
     </nav>
   </header>
 </template>
 
-<style>
+<style scoped>
     /* --------------------
    Header
 --------------------- */
@@ -26,6 +25,13 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header .logo {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  vertical-align: middle;
 }
 
 .header h1 {
