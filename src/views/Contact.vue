@@ -1,3 +1,37 @@
+<script>
+import instagramIcon from "../assets/Icons/instagram.png";
+import emailIcon from "../assets/Icons/email.png";
+import phoneIcon from "../assets/Icons/phone.png";
+
+export default {
+  name: "Contact",
+  data() {
+    return {
+      contacts: [
+        {
+          name: "Instagram",
+          display: "www.instagram.com/ale.visualz/",
+          url: "https://www.instagram.com/ale.visualz/",
+          icon: instagramIcon
+        },
+        {
+          name: "Email",
+          display: "alexramirezperez14@gmail.com",
+          url: "mailto:alexramirezperez14@gmail.com",
+          icon: emailIcon
+        },
+        {
+          name: "Phone",
+          display: "(509) 793-6375",
+          url: "tel:5097936375",
+          icon: phoneIcon
+        }
+      ]
+    };
+  }
+};
+</script>
+
 <template>
   <main class="main">
     <section class="contact">
@@ -33,39 +67,6 @@
   </main>
 </template>
 
-<script>
-import instagramIcon from "../assets/icons/instagram.png";
-import emailIcon from "../assets/icons/email.png";
-import phoneIcon from "../assets/icons/phone.png";
-
-export default {
-  name: "Contact",
-  data() {
-    return {
-      contacts: [
-        {
-          name: "Instagram",
-          display: "www.instagram.com/ale.visualz/",
-          url: "https://www.instagram.com/ale.visualz/",
-          icon: instagramIcon
-        },
-        {
-          name: "Email",
-          display: "alexramirezperez14@gmail.com",
-          url: "mailto:alexramirezperez14@gmail.com",
-          icon: emailIcon
-        },
-        {
-          name: "Phone",
-          display: "(509) 793-6375",
-          url: "tel:5097936375",
-          icon: phoneIcon
-        }
-      ]
-    };
-  }
-};
-</script>
 
 <style scoped>
 .contact {
