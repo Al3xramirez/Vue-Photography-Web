@@ -22,7 +22,7 @@ This is a learning-focused project that combines creativity with modern web deve
 ## 🛠️ Tech Stack
 
 - **Vue.js** – Component-based front-end framework  
-- **JavaScript (ES6+)**
+- **TypeScript**
 - **HTML5**
 - **CSS3**
 - **GitHub Pages** – Static site deployment
