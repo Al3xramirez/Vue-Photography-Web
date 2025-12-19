@@ -1,22 +1,82 @@
 <script>
-import photo1 from "../assets/HomePhotos/photo1.jpg";
-import photo2 from "../assets/HomePhotos/photo2.jpg";
-import photo3 from "../assets/HomePhotos/photo3.jpg";
-import photo4 from "../assets/HomePhotos/photo4.jpg";
-import photo5 from "../assets/HomePhotos/photo5.jpg";
-import photo6 from "../assets/HomePhotos/photo6.jpg";
+import Gallery1H from "../assets/GalleryPhotos/Gallery1H.jpg";
+import Gallery2V from "../assets/GalleryPhotos/Gallery2V.jpg";
+import Gallery3H from "../assets/GalleryPhotos/Gallery3H.jpg";
+import Gallery4V from "../assets/GalleryPhotos/Gallery4V.jpg";
+import Gallery5V from "../assets/GalleryPhotos/Gallery5V.jpg";
+import Gallery6V from "../assets/GalleryPhotos/Gallery6V.jpg";
+import Gallery7V from "../assets/GalleryPhotos/Gallery7V.jpg";
+import Gallery8V from "../assets/GalleryPhotos/Gallery8V.jpg";
+import Gallery9V from "../assets/GalleryPhotos/Gallery9V.jpg";
+import Gallery10V from "../assets/GalleryPhotos/Gallery10V.jpg";
+import Gallery11V from "../assets/GalleryPhotos/Gallery11V.jpg";
+import Gallery12V from "../assets/GalleryPhotos/Gallery12V.jpg";
+import Gallery13V from "../assets/GalleryPhotos/Gallery13V.jpg";
+import Gallery14V from "../assets/GalleryPhotos/Gallery14V.jpg";
+import Gallery15V from "../assets/GalleryPhotos/Gallery15V.jpg";
+import Gallery16V from "../assets/GalleryPhotos/Gallery16V.jpg";
+import Gallery17V from "../assets/GalleryPhotos/Gallery17V.jpg";
+import Gallery27GLV from "../assets/GalleryPhotos/Gallery27GLV.JPG";
+import GalleryCheney34V from "../assets/GalleryPhotos/GalleryCheney34V.jpg";
+import GalleryFilm28H from "../assets/GalleryPhotos/GalleryFilm28H.jpg";
+import GalleryFilm29V from "../assets/GalleryPhotos/GalleryFilm29V.jpg";
+import GalleryFilm30H from "../assets/GalleryPhotos/GalleryFilm30H.jpg";
+import GalleryFilm31H from "../assets/GalleryPhotos/GalleryFilm31H.jpg";
+import GalleryKarina21V from "../assets/GalleryPhotos/GalleryKarina21V.jpg";
+import GalleryKarina22H from "../assets/GalleryPhotos/GalleryKarina22H.jpg";
+import GalleryKarina22V from "../assets/GalleryPhotos/GalleryKarina22V.jpg";
+import GalleryKarina23V from "../assets/GalleryPhotos/GalleryKarina23V.jpg";
+import Laisha18V from "../assets/GalleryPhotos/GalleryLaisha18V.jpg";
+import Laisha19V from "../assets/GalleryPhotos/GalleryLaisha19V.jpg";
+import Laisha20V from "../assets/GalleryPhotos/GalleryLaisha20V.jpg";
+import GalleryParty24V from "../assets/GalleryPhotos/GalleryParty24V.jpg";
+import GalleryParty25V from "../assets/GalleryPhotos/GalleryParty25V.jpg";
+import GalleryParty26V from "../assets/GalleryPhotos/GalleryParty26V.jpg";
+import GallerySoccer32V from "../assets/GalleryPhotos/GallerySoccer32V.jpg";
+import GallerySoccer33V from "../assets/GalleryPhotos/GallerySoccer33V.jpg";
+
+
 
 export default {
   name: "Main",
   data() {
     return {
       photos: [
-        { src: photo1, alt: "MainPage sample 1", vertical: false },
-        { src: photo4, alt: "MainPage sample 4", vertical: false },
-        { src: photo2, alt: "MainPage sample 2", vertical: false }, //vertical
-        { src: photo5, alt: "MainPage sample 5", vertical: true },  // vertical
-        { src: photo6, alt: "MainPage sample 6", vertical: true },  // vertical
-        { src: photo3, alt: "MainPage sample 3", vertical: true },  // vertical
+        {src: Gallery1H, alt: "Gallery sample 1", vertical: false },
+        {src: Gallery2V, alt: "Gallery sample 2", vertical: true },
+        {src: Gallery3H, alt: "Gallery sample 3", vertical: false },
+        {src: Gallery4V, alt: "Gallery sample 4", vertical: true },
+        {src: Gallery5V, alt: "Gallery sample 5", vertical: true },
+        {src: Gallery6V, alt: "Gallery sample 6", vertical: true },
+        {src: Gallery7V, alt: "Gallery sample 7", vertical: true },
+        {src: Gallery8V, alt: "Gallery sample 8", vertical: true },
+        {src: Gallery9V, alt: "Gallery sample 9", vertical: true },
+        {src: Gallery10V, alt: "Gallery sample 10", vertical: true },
+        {src: Gallery11V, alt: "Gallery sample 11", vertical: true },
+        {src: Gallery12V, alt: "Gallery sample 12", vertical: true },
+        {src: Gallery13V, alt: "Gallery sample 13", vertical: true },
+        {src: Gallery14V, alt: "Gallery sample 14", vertical: true },
+        {src: Gallery15V, alt: "Gallery sample 15", vertical: true },
+        {src: Gallery16V, alt: "Gallery sample 16", vertical: true },
+        {src: Gallery17V, alt: "Gallery sample 17", vertical: true },
+        {src: Gallery27GLV, alt: "Gallery sample 27", vertical: true },
+        {src: GalleryCheney34V, alt: "Gallery Cheney sample 34", vertical: true },
+        {src: GalleryFilm28H, alt: "Gallery Film sample 28", vertical: false },
+        {src: GalleryFilm29V, alt: "Gallery Film sample 29", vertical: true },
+        {src: GalleryFilm30H, alt: "Gallery Film sample 30", vertical: false },
+        {src: GalleryFilm31H, alt: "Gallery Film sample 31", vertical: false },
+        {src: GalleryKarina21V, alt: "Gallery Karina sample 21", vertical: true },
+        {src: GalleryKarina22H, alt: "Gallery Karina sample 22", vertical: false },
+        {src: GalleryKarina22V, alt: "Gallery Karina sample 22", vertical: true },
+        {src: GalleryKarina23V, alt: "Gallery Karina sample 23", vertical: true },
+        {src: Laisha18V, alt: "Gallery Laisha sample 18", vertical: true },
+        {src: Laisha19V, alt: "Gallery Laisha sample 19", vertical: true },
+        {src: Laisha20V, alt: "Gallery Laisha sample 20", vertical: true },
+        {src: GalleryParty24V, alt: "Gallery Party sample 24", vertical : true },
+        {src: GalleryParty25V, alt: "Gallery Party sample 25", vertical : true },
+        {src: GalleryParty26V, alt: "Gallery Party sample 26", vertical : true },
+        {src: GallerySoccer32V, alt: "Gallery Soccer sample 32", vertical : true },
+        {src: GallerySoccer33V, alt: "Gallery Soccer sample 33", vertical : true },
 
       ]
     };

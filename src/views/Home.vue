@@ -1,22 +1,33 @@
 <script>
-import photo1 from "../assets/HomePhotos/photo1.jpg";
-import photo2 from "../assets/HomePhotos/photo2.jpg";
-import photo3 from "../assets/HomePhotos/photo3.jpg";
-import photo4 from "../assets/HomePhotos/photo4.jpg";
-import photo5 from "../assets/HomePhotos/photo5.jpg";
-import photo6 from "../assets/HomePhotos/photo6.jpg";
+
+
+import photo1 from "../assets/HomePhotos/Car1V.jpg";
+import photo2 from "../assets/HomePhotos/Car2V.jpg";
+import photo3 from "../assets/HomePhotos/Car3V.jpg";
+import photo4 from "../assets/HomePhotos/Car4H.jpg";
+import photo5 from "../assets/HomePhotos/Car5V.jpg";
+import photo6 from "../assets/HomePhotos/Car6H.jpg";
+import photo7 from "../assets/HomePhotos/Tony1V.jpg";
+import photo8 from "../assets/HomePhotos/Tony2V.jpg";
+import photo9 from "../assets/HomePhotos/Tony3V.jpg";
+import photo10 from "../assets/HomePhotos/Tony4V.jpg";
 
 export default {
   name: "Main",
   data() {
     return {
+      title: "Recent Work",
       photos: [
-        { src: photo1, alt: "MainPage sample 1", vertical: false },
+        { src: photo1, alt: "MainPage sample 1", vertical: true },
         { src: photo4, alt: "MainPage sample 4", vertical: false },
-        { src: photo2, alt: "MainPage sample 2", vertical: false }, //vertical
-        { src: photo5, alt: "MainPage sample 5", vertical: true },  // vertical
-        { src: photo6, alt: "MainPage sample 6", vertical: true },  // vertical
-        { src: photo3, alt: "MainPage sample 3", vertical: true },  // vertical
+        { src: photo2, alt: "MainPage sample 2", vertical: true }, 
+        { src: photo5, alt: "MainPage sample 5", vertical: true },  
+        { src: photo3, alt: "MainPage sample 3", vertical: true },
+        { src: photo6, alt: "MainPage sample 6", vertical: false },
+        { src: photo7, alt: "MainPage sample 7", vertical: true },
+        { src: photo8, alt: "MainPage sample 8", vertical: true }, 
+        { src: photo9, alt: "MainPage sample 9", vertical: true },  
+        { src: photo10, alt: "MainPage sample 10", vertical: true },
 
       ]
     };
@@ -27,6 +38,10 @@ export default {
 
 <template>
   <main class="main">
+
+    <section class = "title">
+      <h2>{{ title }}</h2>
+    </section>
 
     <section class="gallery">
       <img
@@ -79,5 +94,11 @@ export default {
   aspect-ratio: 3/4;
   
 }
+
+.main .title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
 </style>
 
