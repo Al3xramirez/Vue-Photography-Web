@@ -23,4 +23,23 @@ body {
   font-weight: 600;
 }
 
+html, body, #app {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.main {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
 
