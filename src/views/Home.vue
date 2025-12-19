@@ -10,10 +10,6 @@ export default {
   name: "Main",
   data() {
     return {
-        bio: {
-            title: "About Me - Welcome to my Photography Portfolio",
-            description: "Hello Everyone! I'm Alejandro, to keep it short, I'm a passionate photographer based in Cheney, WA. I specialize in film and digital photography, capturing the beauty of the world and the essence of people through my lens. You can reach me by going to the contact page. To view my full gallery, please visit the gallery page."
-        },
       photos: [
         { src: photo1, alt: "MainPage sample 1", vertical: false },
         { src: photo4, alt: "MainPage sample 4", vertical: false },
@@ -31,11 +27,6 @@ export default {
 
 <template>
   <main class="main">
-
-    <section class="bio">
-      <h3>{{ bio.title }}</h3>
-      <p>{{ bio.description }}</p>
-    </section>
 
     <section class="gallery">
       <img
@@ -88,27 +79,5 @@ export default {
   aspect-ratio: 3/4;
   
 }
-
-/* --------------------
-   bio Headings
---------------------- */
-
-.bio {
-    text-align: center;
-  margin-bottom: 2rem;
-}
-.bio h3 {
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
-  margin-top: -1rem;
-}
-.bio p {
-  font-size: 1rem;
-  font-family:Arial, Helvetica, sans-serif;
-  color: #555;
-}
-
-
-
 </style>
 
