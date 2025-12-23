@@ -34,6 +34,30 @@ import GalleryParty25V from "../assets/GalleryPhotos/GalleryParty25V.jpg";
 import GalleryParty26V from "../assets/GalleryPhotos/GalleryParty26V.jpg";
 import GallerySoccer32V from "../assets/GalleryPhotos/GallerySoccer32V.jpg";
 import GallerySoccer33V from "../assets/GalleryPhotos/GallerySoccer33V.jpg";
+import Kell1 from "../assets/GalleryPhotos/Kell1.JPEG";
+import Kell2 from "../assets/GalleryPhotos/Kell2.JPEG";
+import Kell3 from "../assets/GalleryPhotos/Kell3.JPEG";
+import Galli2 from "../assets/GalleryPhotos/Galli2.jpg";
+import Gali1 from "../assets/GalleryPhotos/Gali1.jpg";
+import Beach1 from "../assets/GalleryPhotos/Beach1.jpg";
+import Beach2H from "../assets/GalleryPhotos/Beach2H.jpg";
+import Beach3 from "../assets/GalleryPhotos/Beach3.jpg";
+import Cheney1 from "../assets/GalleryPhotos/Cheney1.jpg";
+import Gorge1H from "../assets/GalleryPhotos/Gorge1H.jpg";
+import Gorge5  from "../assets/GalleryPhotos/Gorge5.JPG";
+import Gorge6H from "../assets/GalleryPhotos/Gorge6H.jpg";
+import Mom from "../assets/GalleryPhotos/Mom.jpg";
+import Paco1 from "../assets/GalleryPhotos/Paco.JPG";
+import Seattle1 from "../assets/GalleryPhotos/Seattle1.jpg";
+import Seattle2 from "../assets/GalleryPhotos/Seattle2.jpg";
+import Seattle3 from "../assets/GalleryPhotos/Seattle3.jpg";
+import Seattle4 from "../assets/GalleryPhotos/Seattle4.jpg";
+import Seattle5 from "../assets/GalleryPhotos/Seattle5.jpg";
+import SoccerGame1 from "../assets/GalleryPhotos/SoccerGame1.jpg";
+import SoccerGame3H from "../assets/GalleryPhotos/SoccerGame3H.jpg";
+import SoccerGame4 from "../assets/GalleryPhotos/SoccerGame4.jpg";
+import SoccerGame5 from "../assets/GalleryPhotos/SoccerGame5.jpg";
+
 
 
 
@@ -42,43 +66,66 @@ export default {
   data() {
     return {
       photos: [
-        {src: Gallery1H, alt: "Gallery sample 1", vertical: false },
-        {src: Gallery2V, alt: "Gallery sample 2", vertical: true },
-        {src: Gallery3H, alt: "Gallery sample 3", vertical: false },
-        {src: Gallery4V, alt: "Gallery sample 4", vertical: true },
-        {src: Gallery5V, alt: "Gallery sample 5", vertical: true },
-        {src: Gallery6V, alt: "Gallery sample 6", vertical: true },
-        {src: Gallery7V, alt: "Gallery sample 7", vertical: true },
-        {src: Gallery8V, alt: "Gallery sample 8", vertical: true },
-        {src: Gallery9V, alt: "Gallery sample 9", vertical: true },
-        {src: Gallery10V, alt: "Gallery sample 10", vertical: true },
-        {src: Gallery11V, alt: "Gallery sample 11", vertical: true },
-        {src: Gallery12V, alt: "Gallery sample 12", vertical: true },
-        {src: Gallery13V, alt: "Gallery sample 13", vertical: true },
-        {src: Gallery14V, alt: "Gallery sample 14", vertical: true },
-        {src: Gallery15V, alt: "Gallery sample 15", vertical: true },
-        {src: Gallery16V, alt: "Gallery sample 16", vertical: true },
-        {src: Gallery17V, alt: "Gallery sample 17", vertical: true },
-        {src: Gallery27GLV, alt: "Gallery sample 27", vertical: true },
-        {src: GalleryCheney34V, alt: "Gallery Cheney sample 34", vertical: true },
-        {src: GalleryFilm28H, alt: "Gallery Film sample 28", vertical: false },
-        {src: GalleryFilm29V, alt: "Gallery Film sample 29", vertical: true },
-        {src: GalleryFilm30H, alt: "Gallery Film sample 30", vertical: false },
-        {src: GalleryFilm31H, alt: "Gallery Film sample 31", vertical: false },
-        {src: GalleryKarina21V, alt: "Gallery Karina sample 21", vertical: true },
-        {src: GalleryKarina22H, alt: "Gallery Karina sample 22", vertical: false },
-        {src: GalleryKarina22V, alt: "Gallery Karina sample 22", vertical: true },
-        {src: GalleryKarina23V, alt: "Gallery Karina sample 23", vertical: true },
-        {src: Laisha18V, alt: "Gallery Laisha sample 18", vertical: true },
-        {src: Laisha19V, alt: "Gallery Laisha sample 19", vertical: true },
-        {src: Laisha20V, alt: "Gallery Laisha sample 20", vertical: true },
-        {src: GalleryParty24V, alt: "Gallery Party sample 24", vertical : true },
-        {src: GalleryParty25V, alt: "Gallery Party sample 25", vertical : true },
-        {src: GalleryParty26V, alt: "Gallery Party sample 26", vertical : true },
-        {src: GallerySoccer32V, alt: "Gallery Soccer sample 32", vertical : true },
-        {src: GallerySoccer33V, alt: "Gallery Soccer sample 33", vertical : true },
+      { src: SoccerGame5, alt: "Gallery Soccer Game sample 5", vertical: true },
+      { src: SoccerGame4, alt: "Gallery Soccer Game sample 4", vertical: true },
+      { src: SoccerGame3H, alt: "Gallery Soccer Game sample 3", vertical: false },
+      { src: SoccerGame1, alt: "Gallery Soccer Game sample 1", vertical: true },
+      { src: Seattle5, alt: "Gallery Seattle sample 5", vertical: true },
+      { src: Seattle4, alt: "Gallery Seattle sample 4", vertical: true },
+      { src: Seattle3, alt: "Gallery Seattle sample 3", vertical: true },
+      { src: Seattle2, alt: "Gallery Seattle sample 2", vertical: true },
+      { src: Seattle1, alt: "Gallery Seattle sample 1", vertical: true },
+      { src: Paco1, alt: "Gallery Paco sample 1", vertical: true },
+      { src: Mom, alt: "Gallery Mom sample", vertical: true },
+      { src: Gorge6H, alt: "Gallery Gorge sample 6", vertical: false },
+      { src: Gorge5, alt: "Gallery Gorge sample 5", vertical: true },
+      { src: Gorge1H, alt: "Gallery Gorge sample 1", vertical: false },
+      { src: Cheney1, alt: "Gallery Cheney sample 1", vertical: true },
+      { src: Beach3, alt: "Gallery Beach sample 3", vertical: true },
+      { src: Beach2H, alt: "Gallery Beach sample 2", vertical: false },
+      { src: Beach1, alt: "Gallery Beach sample 1", vertical: true },
+      { src: Galli2, alt: "Gallery Gali sample 2", vertical: true },
+      { src: Gali1, alt: "Gallery Gali sample 1", vertical: true },
+      { src: Kell3, alt: "Gallery Kell sample 3", vertical: true },
+      { src: Kell2, alt: "Gallery Kell sample 2", vertical: true },
+      { src: Kell1, alt: "Gallery Kell sample 1", vertical: true },
+      { src: GallerySoccer33V, alt: "Gallery Soccer sample 33", vertical: true },
+      { src: GallerySoccer32V, alt: "Gallery Soccer sample 32", vertical: true },
+      { src: GalleryParty26V, alt: "Gallery Party sample 26", vertical: true },
+      { src: GalleryParty25V, alt: "Gallery Party sample 25", vertical: true },
+      { src: GalleryParty24V, alt: "Gallery Party sample 24", vertical: true },
+      { src: Laisha20V, alt: "Gallery Laisha sample 20", vertical: true },
+      { src: Laisha19V, alt: "Gallery Laisha sample 19", vertical: true },
+      { src: Laisha18V, alt: "Gallery Laisha sample 18", vertical: true },
+      { src: GalleryKarina23V, alt: "Gallery Karina sample 23", vertical: true },
+      { src: GalleryKarina22V, alt: "Gallery Karina sample 22", vertical: true },
+      { src: GalleryKarina22H, alt: "Gallery Karina sample 22", vertical: false },
+      { src: GalleryKarina21V, alt: "Gallery Karina sample 21", vertical: true },
+      { src: GalleryFilm31H, alt: "Gallery Film sample 31", vertical: false },
+      { src: GalleryFilm30H, alt: "Gallery Film sample 30", vertical: false },
+      { src: GalleryFilm29V, alt: "Gallery Film sample 29", vertical: true },
+      { src: GalleryFilm28H, alt: "Gallery Film sample 28", vertical: false },
+      { src: GalleryCheney34V, alt: "Gallery Cheney sample 34", vertical: true },
+      { src: Gallery27GLV, alt: "Gallery sample 27", vertical: true },
+      { src: Gallery17V, alt: "Gallery sample 17", vertical: true },
+      { src: Gallery16V, alt: "Gallery sample 16", vertical: true },
+      { src: Gallery15V, alt: "Gallery sample 15", vertical: true },
+      { src: Gallery14V, alt: "Gallery sample 14", vertical: true },
+      { src: Gallery13V, alt: "Gallery sample 13", vertical: true },
+      { src: Gallery12V, alt: "Gallery sample 12", vertical: true },
+      { src: Gallery11V, alt: "Gallery sample 11", vertical: true },
+      { src: Gallery10V, alt: "Gallery sample 10", vertical: true },
+      { src: Gallery9V, alt: "Gallery sample 9", vertical: true },
+      { src: Gallery8V, alt: "Gallery sample 8", vertical: true },
+      { src: Gallery7V, alt: "Gallery sample 7", vertical: true },
+      { src: Gallery6V, alt: "Gallery sample 6", vertical: true },
+      { src: Gallery5V, alt: "Gallery sample 5", vertical: true },
+      { src: Gallery4V, alt: "Gallery sample 4", vertical: true },
+      { src: Gallery3H, alt: "Gallery sample 3", vertical: false },
+      { src: Gallery2V, alt: "Gallery sample 2", vertical: true },
+      { src: Gallery1H, alt: "Gallery sample 1", vertical: false }
+    ]
 
-      ]
     };
   }
 };
@@ -101,7 +148,7 @@ export default {
 
 <style scoped>
 
-    /* --------------------
+/* --------------------
    Main Content
 --------------------- */
 .main {
