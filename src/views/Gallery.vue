@@ -50,7 +50,7 @@ import Mom from "../assets/GalleryPhotos/Mom.jpg";
 import Paco1 from "../assets/GalleryPhotos/Paco.JPG";
 import Seattle1 from "../assets/GalleryPhotos/Seattle1.jpg";
 import Seattle2 from "../assets/GalleryPhotos/Seattle2.jpg";
-import Seattle3 from "../assets/GalleryPhotos/Seattle3.jpg";
+import Seattle3 from "../assets/GalleryPhotos/Seattle3.JPG";
 import Seattle4 from "../assets/GalleryPhotos/Seattle4.jpg";
 import Seattle5 from "../assets/GalleryPhotos/Seattle5.jpg";
 import SoccerGame1 from "../assets/GalleryPhotos/SoccerGame1.jpg";
